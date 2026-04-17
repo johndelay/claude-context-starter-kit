@@ -1,0 +1,5 @@
+.DS_Store
+.obsidian/
+*.sync-conflict*
+.vscode/
+.idea/
