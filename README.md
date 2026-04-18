@@ -131,9 +131,23 @@ See `skills/README.md` for setup instructions.
 
 ## Works With
 
-**Designed for Cowork** (Claude desktop app). Cowork reads your selected folder automatically — this kit is built around that behavior.
+| Interface | How it works |
+|---|---|
+| **Cowork** (Claude desktop app) | Reads your selected folder automatically — this kit is built around that behavior |
+| **Claude Code** (terminal / developer workflow) | Reads `CLAUDE.md` from your repo or working directory automatically |
+| **Claude.ai** (web / mobile) | Paste your `CLAUDE.md` content at the start of a session to activate context |
 
-Also works with Claude.ai by pasting your `CLAUDE.md` content at the start of a conversation, and with Claude Code for developers who prefer the terminal.
+Same file. Every interface. No reformatting, no duplication.
+
+---
+
+## Further Reading
+
+If you want more depth before you start, or want to understand the architecture behind the kit:
+
+- **[How to Give Claude a Memory (In About 15 Minutes)](https://thedelay.com/give-claude-a-memory/)** — step-by-step setup walkthrough for non-technical users, with troubleshooting and a health check prompt
+- **[Why I Treat My AI Context Like Infrastructure](https://thedelay.com/ai-context-infrastructure/)** — the architecture behind the two-level model, why plain text beats everything else, and why the timing matters
+- **[A Week in the Life](docs/user-guide.md)** — narrative walkthrough showing the whole system working end-to-end, from day one through month one
 
 ---
 
