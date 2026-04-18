@@ -37,6 +37,8 @@ That's the whole idea. One file. Permanent context. No re-explaining.
 
 > **Not a developer?** Click the green **Code** button at the top of this page, then click **Download ZIP**. Unzip the file — you'll find everything you need inside.
 
+> **Not sure where to start?** Ask Claude: *"Can you walk me through setting up this workspace?"* and it will guide you step by step.
+
 ### Step 1 — Get the workspace template
 
 Copy `CLAUDE.md` from this repo into the folder you use with Cowork. Open it and fill in the sections that matter most right now:

@@ -1,6 +1,8 @@
 # My Claude Context File
 <!-- This file is read by Claude at the start of every session. Think of it as
      Claude's briefing document — the more you put in, the better it works. -->
+<!-- New here? Ask Claude: "Can you walk me through setting this up?" and it
+     will guide you step by step. Or see SETUP_GUIDE.md for a checklist. -->
 
 **NEXT ACTION**: [One sentence — what you want Claude to pick up on next time]
 
@@ -69,10 +71,10 @@ When you can't do something, explain why. When you suggest a different approach,
 If you suspect context may be incomplete — after a compact, at the start of a new session, or any time the conversation history feels abbreviated — stop before starting any work. Say so explicitly: "I want to confirm current state before we begin. Based on my context files, here's what I understand: [summary]. Is this correct?" Wait for confirmation before proceeding. Never execute a task based on a compact summary alone.
 
 ### 12. New Project Setup
-When I say "new project," "set up a project," or "I want to start something new," read `skills/new-project/SKILL.md` and follow the wizard. Don't just ask what to call it — have a conversation first.
+When I say "new project," "set up a project," or "I want to start something new," read `skills/new-project/SKILL.md` and follow the wizard. Don't just ask what to call it — have a conversation first. If you cannot find `skills/new-project/SKILL.md`, tell me: "The new-project skill isn't activated in your workspace. See `skills/README.md` for setup instructions. I'll do my best to help you manually." Then proceed with a basic project setup conversation.
 
 ### 13. Compact Recovery
-If I say "I think we just compacted," "catch me up," or "confirm current state," read `skills/compact-recovery/SKILL.md` and run the recovery protocol. Show me a current-state brief and wait for my confirmation before doing anything.
+If I say "I think we just compacted," "catch me up," or "confirm current state," read `skills/compact-recovery/SKILL.md` and run the recovery protocol. Show me a current-state brief and wait for my confirmation before doing anything. If you cannot find `skills/compact-recovery/SKILL.md`, fall back to the manual recovery procedure: read workspace CLAUDE.md and the most recent SESSION file, present a current-state brief, and wait for confirmation. Tell me the skill file wasn't found.
 
 ---
 
