@@ -115,6 +115,7 @@ See `skills/README.md` for setup instructions.
 | `CLAUDE-example.md` | Fully filled-in example — see what a working file looks like |
 | `SAVE_WORKFLOW.md` | Step-by-step guide for saving context between sessions |
 | `COWORK_SETUP.md` | Installation and setup guide — install the app, select your folder, connect your tools |
+| `SETUP_GUIDE.md` | First-time setup checklist and workspace health check — verify your configuration is complete |
 | `templates/writing-communication.md` | For emails, reports, recurring communications |
 | `templates/project-tracking.md` | For managing tasks, decisions, and blockers across a project |
 | `templates/research-summarization.md` | For research projects, source tracking, and findings |
