@@ -65,7 +65,7 @@ Once activated, you can say **"new project"** to get a guided project setup, and
 
 ---
 
-## Going Deeper — Project Folders
+## Going Deeper — Project Folders & Skills
 
 For any project you work on repeatedly, create a project folder:
 
@@ -93,6 +93,17 @@ Pick a template from the `templates/` folder that matches your work, rename it `
 ```
 
 That's it. Claude will load the project context whenever you mention it.
+
+### Using the skills
+
+The `skills/` folder includes two conversational workflows built into Claude:
+
+- **New-project wizard**: Say "new project" and Claude walks you through
+  setting up a project folder conversationally — no manual file creation.
+- **Compact recovery**: Say "catch me up" after a long session and Claude
+  reads your context files to confirm current state before continuing.
+
+See `skills/README.md` for setup instructions.
 
 ---
 

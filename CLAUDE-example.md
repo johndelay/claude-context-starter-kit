@@ -119,10 +119,11 @@ anything.
 ---
 
 ## Current Projects
-<!-- Keep this to your top 3 active projects. The "Context" line below is not
-     just a note — it's an instruction Claude acts on. When you mention a
-     project, Claude reads that file to load all the details without you
-     re-explaining. If a project doesn't have a context file yet, leave it
+<!-- Keep this to your top 3 active projects. The "Context" line in each
+     project below is not just a note — it is an instruction Claude acts on.
+     When you mention a project, Claude reads that file to load all the
+     details without you re-explaining. Do not delete or change this line.
+     If a project doesn't have a context file yet, leave the Context line
      blank and Claude will ask. -->
 
 ### Project 1: Apex Vendor Risk Review
