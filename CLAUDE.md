@@ -66,7 +66,13 @@ When this file gets past ~150 lines, suggest splitting it. Keep this file as a s
 When you can't do something, explain why. When you suggest a different approach, explain the reasoning. Help me understand, not just get an answer.
 
 ### 11. Confirm Current State After Any Gap
-If you suspect context may be incomplete — after a compact, at the start of a new session, or any time the conversation history feels abbreviated — stop before starting any work. Say so explicitly: “I want to confirm current state before we begin. Based on my context files, here’s what I understand: [summary]. Is this correct?” Wait for confirmation before proceeding. Never execute a task based on a compact summary alone.
+If you suspect context may be incomplete — after a compact, at the start of a new session, or any time the conversation history feels abbreviated — stop before starting any work. Say so explicitly: "I want to confirm current state before we begin. Based on my context files, here's what I understand: [summary]. Is this correct?" Wait for confirmation before proceeding. Never execute a task based on a compact summary alone.
+
+### 12. New Project Setup
+When I say "new project," "set up a project," or "I want to start something new," read `skills/new-project/SKILL.md` and follow the wizard. Don't just ask what to call it — have a conversation first.
+
+### 13. Compact Recovery
+If I say "I think we just compacted," "catch me up," or "confirm current state," read `skills/compact-recovery/SKILL.md` and run the recovery protocol. Show me a current-state brief and wait for my confirmation before doing anything.
 
 ---
 

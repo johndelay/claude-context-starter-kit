@@ -35,6 +35,8 @@ That's the whole idea. One file. Permanent context. No re-explaining.
 
 ## Quick Start (5 minutes)
 
+> **Not a developer?** Click the green **Code** button at the top of this page, then click **Download ZIP**. Unzip the file — you'll find everything you need inside.
+
 ### Step 1 — Get the workspace template
 
 Copy `CLAUDE.md` from this repo into the folder you use with Cowork. Open it and fill in the sections that matter most right now:
@@ -54,6 +56,12 @@ Open the Claude desktop app, open Cowork, and select the folder where you just s
 Start a new session. Ask Claude: *"What do you know about me and what I'm working on?"*
 
 If it can tell you — you're set. That's the baseline. Now you can work without re-explaining from scratch.
+
+### Step 4 — Activate the skills (optional but recommended)
+
+Copy the `skills/` folder from this repo into your workspace folder alongside `CLAUDE.md`. Then add Standing Instructions #12 and #13 from `skills/README.md` to your workspace `CLAUDE.md`.
+
+Once activated, you can say **"new project"** to get a guided project setup, and **"catch me up"** to recover cleanly after a context compact.
 
 ---
 
@@ -93,11 +101,13 @@ That's it. Claude will load the project context whenever you mention it.
 | File / Folder | What it is |
 |---|---|
 | `CLAUDE.md` | Master workspace template — your permanent AI brain |
+| `CLAUDE-example.md` | Fully filled-in example — see what a working file looks like |
 | `SAVE_WORKFLOW.md` | Step-by-step guide for saving context between sessions |
 | `COWORK_SETUP.md` | Installation and setup guide — install the app, select your folder, connect your tools |
 | `templates/writing-communication.md` | For emails, reports, recurring communications |
 | `templates/project-tracking.md` | For managing tasks, decisions, and blockers across a project |
 | `templates/research-summarization.md` | For research projects, source tracking, and findings |
+| `skills/` | Behavioral scripts for Claude — copy to your workspace to activate |
 | `projects/` | One subfolder per active project |
 | `scratch/` | One-off tasks — no setup, no SESSION files needed |
 | `z-archive/` | Completed projects — move here, never delete |
