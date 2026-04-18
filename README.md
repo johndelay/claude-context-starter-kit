@@ -113,6 +113,7 @@ See `skills/README.md` for setup instructions.
 
 | File / Folder | What it is |
 |---|---|
+| `docs/user-guide.md` | Narrative walkthrough — what week one actually looks like, end to end |
 | `CLAUDE.md` | Master workspace template — your permanent AI brain |
 | `CLAUDE-example.md` | Fully filled-in example — see what a working file looks like |
 | `SAVE_WORKFLOW.md` | Step-by-step guide for saving context between sessions |
